@@ -1,4 +1,5 @@
 SCRIPT_LOCATION=/etc/azure/sam
+mkdir -p $SCRIPT_LOCATION
 
 wget -q https://raw.githubusercontent.com/dragonfly91/AzureBackupIgnite2018/1c810c2df489fd3ef589ae2e90aa72a286ca896c/mysql-app-consistent-backup-env.sh -O $SCRIPT_LOCATION/mysql-app-consistent-backup-env.sh
 wget -q https://raw.githubusercontent.com/dragonfly91/AzureBackupIgnite2018/1c810c2df489fd3ef589ae2e90aa72a286ca896c/mysql-app-consistent-backup-funcs.sh -O $SCRIPT_LOCATION/mysql-app-consistent-backup-funcs.sh
